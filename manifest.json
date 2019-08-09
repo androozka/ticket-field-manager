@@ -1,0 +1,51 @@
+{
+  "name": "Ticket Field Manager (v2 Framework)",
+  "author": {
+    "name": "Andrew Milenic",
+    "email": "andrew.milenic@csaa.com"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "version": "1.0",
+  "frameworkVersion": "2.0",
+  "location": {
+    "support": {
+      "ticket_sidebar": "assets/index.html",
+      "new_ticket_sidebar": "assets/index.html"
+    }
+  },
+  "parameters": [
+    {
+      "name": "hidden_fields",
+      "type": "multiline"
+    },
+    {
+      "name": "hidden_fields_whitelist_tags",
+      "type": "text"
+    },
+    {
+      "name": "hidden_fields_whitelist_group_ids",
+      "type": "text"
+    },
+    {
+      "name": "hidden_fields_whitelist_organization_ids",
+      "type": "text"
+    },
+    {
+      "name": "readonly_fields",
+      "type": "multiline"
+    },
+    {
+      "name": "readonly_fields_whitelist_tags",
+      "type": "text"
+    },
+    {
+      "name": "readonly_fields_whitelist_group_ids",
+      "type": "text"
+    },
+    {
+      "name": "readonly_fields_whitelist_organization_ids",
+      "type": "text"
+    }
+  ]
+}

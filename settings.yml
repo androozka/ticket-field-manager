@@ -1,0 +1,11 @@
+# Hidden Fields
+hidden_fields: 'custom_field_360000529628'
+hidden_fields_whitelist_tags: 'super_admin_hidden'
+hidden_fields_whitelist_group_ids: ''
+hidden_fields_whitelist_organization_ids: ''
+
+# Read-Only Fields
+readonly_fields: 'ticket_form_id, custom_field_360000524227, custom_field_360000530088'
+readonly_fields_whitelist_tags: 'super_admin_readonly'
+readonly_fields_whitelist_group_ids: ''
+readonly_fields_whitelist_organization_ids: ''

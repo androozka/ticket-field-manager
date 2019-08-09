@@ -1,0 +1,41 @@
+{
+  "app": {
+    "description": "Ticket Field Manager",
+    "name": "Ticket Field Manager",
+    "parameters": {
+      "hidden_fields": {
+        "label": "Hidden Fields",
+        "helpText": "List of hidden ticket fields separated by commas. Example: status,custom_field_1234567"
+      },
+      "hidden_fields_whitelist_tags": {
+        "label": "Hidden Fields whitelist tags",
+        "helpText": "List of tags separated by commas. Example: admin,super_agent"
+      },
+      "hidden_fields_whitelist_group_ids": {
+        "label": "Hidden Fields whitelist groups",
+        "helpText": "List of group ids separated by commas. Example: 231231321,34345456"
+      },
+      "hidden_fields_whitelist_organization_ids": {
+        "label": "Hidden Fields whitelist organizations",
+        "helpText": "List of organization ids separated by commas. Example: 231231321,34345456"
+      },
+      "readonly_fields": {
+        "label": "Readonly Fields",
+        "helpText": "List of read only ticket fields separated by commas. Example: status,custom_field_1234567"
+      },
+      "readonly_fields_whitelist_tags": {
+        "label": "Readonly Fields whitelist tags",
+        "helpText": "List of tags separated by commas. Example: admin,super_agent"
+      },
+      "readonly_fields_whitelist_group_ids": {
+        "label": "Readonly Fields whitelist groups",
+        "helpText": "List of group ids separated by commas. Example: 231231321,34345456"
+      },
+      "readonly_fields_whitelist_organization_ids": {
+        "label": "Readonly Fields whitelist organizations",
+        "helpText": "List of organization ids separated by commas. Example: 231231321,34345456"
+      }
+    }
+  },
+  "invalid_fields": "The following fields cannot be empty: <strong>{{fields}}</strong>"
+}
