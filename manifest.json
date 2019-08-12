@@ -10,8 +10,14 @@
   "frameworkVersion": "2.0",
   "location": {
     "support": {
-      "ticket_sidebar": "assets/index.html",
-      "new_ticket_sidebar": "assets/index.html"
+      "ticket_sidebar": {
+        "url": "assets/pages/index.html",
+        "autoHide": true
+      },
+      "new_ticket_sidebar": {
+        "url": "assets/pages/index.html",
+        "autoHide": true
+      }
     }
   },
   "parameters": [
