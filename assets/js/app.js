@@ -11,6 +11,7 @@ async function runApp() {
     // Load required information
     ({ settings } = await client.metadata());
     ({ currentUser } = await client.get('currentUser'));
+    await client.invoke('hide');
 
     // Assemble list of fields
     hiddenFields = fields('hidden_fields');
