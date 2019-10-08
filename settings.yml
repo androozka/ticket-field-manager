@@ -1,11 +1,31 @@
+###############
+### Sandbox ###
+###############
+#
+# # Hidden Fields
+# hidden_fields: 'custom_field_360000529628'
+# hidden_fields_whitelist_tags: 'super_admin_hidden'
+# hidden_fields_whitelist_group_ids: ''
+# hidden_fields_whitelist_organization_ids: ''
+
+# # Read-Only Fields
+# readonly_fields: 'ticket_form_id, custom_field_360000524227, custom_field_360000530088'
+# readonly_fields_whitelist_tags: 'super_admin_readonly'
+# readonly_fields_whitelist_group_ids: ''
+# readonly_fields_whitelist_organization_ids: ''
+#
+##################
+### Production ###
+##################
+#
 # Hidden Fields
-hidden_fields: 'custom_field_360000529628'
+hidden_fields: 'custom_field_36918388,custom_field_42621728,custom_field_34302348,custom_field_360000280168'
 hidden_fields_whitelist_tags: 'super_admin_hidden'
 hidden_fields_whitelist_group_ids: ''
 hidden_fields_whitelist_organization_ids: ''
 
 # Read-Only Fields
-readonly_fields: 'ticket_form_id, custom_field_360000524227, custom_field_360000530088'
+readonly_fields: 'custom_field_77390128,custom_field_77390148,custom_field_76951007,custom_field_81510828,custom_field_81144867,custom_field_47164988,custom_field_47165008,custom_field_360000012847,custom_field_360000012867,custom_field_360000013488,custom_field_360000013508,custom_field_360000013528,custom_field_360000096867,custom_field_360000096867,custom_field_360000133468,custom_field_360000133488,custom_field_79861527,custom_field_360000242388,custom_field_77504567,custom_field_77959248,custom_field_45749827,custom_field_45749807,custom_field_360000251428,custom_field_360000243387,custom_field_360000244147,custom_field_80732848,custom_field_46731147,custom_field_360000307687,custom_field_360000316428,custom_field_360000307707,custom_field_360000223748,custom_field_360000362467,custom_field_360000362487,custom_field_360000316408,custom_field_360000307667,custom_field_360000394887,custom_field_360000394867,custom_field_42720767,custom_field_42669128,custom_field_42669568,custom_field_360000449808,custom_field_360000254987,custom_field_360000458407,custom_field_360000485547,custom_field_360000514467,custom_field_360000514387,custom_field_360000520568,custom_field_360000520588,custom_field_360000514407,custom_field_360000514427,custom_field_360000514447,custom_field_360000520788,custom_field_360000502087,custom_field_360015464814,custom_field_360015464834,custom_field_47054027,custom_field_29049008,custom_field_29582508,custom_field_360020161674,custom_field_360020552593,custom_field_360020570534,custom_field_360020552613,custom_field_360020552633,custom_field_360020570554,custom_field_360020570574,custom_field_360021152774,custom_field_360021271954,custom_field_360021271974,custom_field_360021667113,custom_field_360021658594,custom_field_360022553173,custom_field_360020161674,custom_field_360024283114,custom_field_360024360014,custom_field_360022798593,custom_field_360022797994,custom_field_360022798613,custom_field_360022798633,custom_field_360022798294,custom_field_360022796893,custom_field_360022797633,custom_field_360025155414,custom_field_360025155414,custom_field_360025592854,custom_field_360025570693,custom_field_360025570713,custom_field_360025593034,custom_field_360025593014,custom_field_360025570733,custom_field_360026631913,custom_field_360017763133'
 readonly_fields_whitelist_tags: 'super_admin_readonly'
 readonly_fields_whitelist_group_ids: ''
 readonly_fields_whitelist_organization_ids: ''

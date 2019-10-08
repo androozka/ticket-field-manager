@@ -39,7 +39,7 @@ function onFieldChanged() {
 /**
  * Zendesk field handler (hidden & read-only)
  *
- * @param {[object]} fields - List of fields
+ * @param {[Object]} fields - List of fields
  * @param {string} action - Action to perform
  */
 function handleFields(fields, action) {
